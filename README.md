@@ -24,7 +24,7 @@ Currently supports
 
 Configure appenders for log4net in your Web.config or log4net.config (check log4net docs for more details)
 
-
+```xml
 	<log4net>
 	  <appender name="UDPAppender" type="Gelfify.Appenders.UDPAppender, Gelfify">
 	    <remoteAddress value="127.0.0.1" />
